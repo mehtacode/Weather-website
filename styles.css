@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(to bottom, #4b87bb, #048ec5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.glassmorphism {
+    background: rgba(253, 248, 248, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
